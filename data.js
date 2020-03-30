@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-kitchen",
-      "name": "Kitchen",
+      "id": "0-entrykitchen",
+      "name": "Entry/Kitchen",
       "levels": [
         {
           "tileSize": 256,
@@ -24,23 +24,54 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 2.84347191593334,
-        "pitch": 0.007261601103987658,
+        "yaw": 2.902612848251171,
+        "pitch": 0.054794629485737545,
+        "fov": 1.3219339076578436
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-family",
+      "name": "Family",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1344,
+      "initialViewParameters": {
+        "yaw": -3.1201130953562597,
+        "pitch": 0.04512358670740113,
         "fov": 1.3219339076578436
       },
       "linkHotspots": [
         {
-          "yaw": -0.47357029407002926,
-          "pitch": 0.13837191229449353,
+          "yaw": -0.9548763701719523,
+          "pitch": 0.3848655539013759,
           "rotation": 5.497787143782138,
-          "target": "2-master-bedroom"
+          "target": "2-master-with-en-suite"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-living",
-      "name": "Living",
+      "id": "2-master-with-en-suite",
+      "name": "Master with En-Suite",
       "levels": [
         {
           "tileSize": 256,
@@ -62,60 +93,15 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -1.1073316505515045,
-        "pitch": 0.19278202820010293,
-        "fov": 1.3219339076578436
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
-      "linkHotspots": [
-        {
-          "yaw": -1.1197982880657502,
-          "pitch": 0.16273807575333166,
-          "rotation": 0,
-          "target": "2-master-bedroom"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-master-bedroom",
-      "name": "Master Bedroom",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1344,
-      "initialViewParameters": {
-        "yaw": 2.4131848331145944,
-        "pitch": 0.0425651368316835,
-        "fov": 1.3219339076578436
-      },
-      "linkHotspots": [
-        {
-          "yaw": -3.1333215895864654,
-          "pitch": 0.28602234291854245,
-          "rotation": 0.7853981633974483,
-          "target": "1-living"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     }
   ],
-  "name": "Unit 7, 2 Monash Green Drive, Clayton",
+  "name": "Unit 7 - 2 Monash Green Drive Clayton",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
